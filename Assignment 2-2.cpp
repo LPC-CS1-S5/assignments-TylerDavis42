@@ -9,6 +9,13 @@ int main();
   cout << letter << endl;
   letter = 65;
   cout << letter << endl;
+  letter = 86;
+  cout << letter << endl;
+  letter = 73;
+  cout << letter << endl;
+  letter = 83;
+  cout << letter << endl;
+
   return 0;
 
 }
