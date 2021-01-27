@@ -10,7 +10,7 @@ int main()
 
   regular_wages = regular_hours * base_pay_rate;
  
-  overtime_hours = work_hours - regular_hours
+  overtime_hours = work_hours - regular_hours;
 
   overtime_wages = overtime_hours * overtime_pay_rate;
 
@@ -18,5 +18,5 @@ int main()
 
   cout << "Regular Wages" << regular_wages << endl;
   cout << "Overtime Wages" << overtime_wages << endl;
-  cout << "Total Wages" << total_wages << endl.
+  cout << "Total Wages" << total_wages << endl;
 }
