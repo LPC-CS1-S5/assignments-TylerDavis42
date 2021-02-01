@@ -8,6 +8,7 @@
 // Then, the program should divide the sum variable by 5 to get the average.
 // Display the sum and average with precision 3 on the screen.
 
+#include <iomanip>
 #include <iostream>
 using namespace std;
 
@@ -24,4 +25,6 @@ int main()
 
   cout << "Sum:" << sum << endl;
   cout << "Average:" << avg << endl;
+
+  // Not sure how to print numbers in precision 3
 }
