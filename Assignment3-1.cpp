@@ -11,18 +11,22 @@ using namespace std;
 
 int main()
 {
-int ClassA = 15.00;
-int ClassB = 12.00;
-int ClassC = 9.00;
+int ClassA;
+int ClassB;
+int ClassC;
 
-Total = 
-cout <<  << endl;
-cin >> 
-cout <<  << endl;
-cin >>
-cout <<  << endl;
-cin >>
+cout <<"Tickets From Class A: "<< endl;
+cin >> ClassA;
+cout <<"Tickets From Class B: "<< endl;
+cin >> ClassB;
+cout <<"Tickets From Class C: "<< endl;
+cin >> ClassC;
 
-cout << setprecision(2) << Total << endl;
+double Income1 = ClassA * 15;
+double Income2 = ClassB * 12;
+double Income3 = ClassC * 9;
+double TotalIncome = Income1 + Income2 + Income3;
+
+cout << setprecision(2) << "Total Income: $" << TotalIncome << endl;
 
 }
