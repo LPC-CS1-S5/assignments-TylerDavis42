@@ -28,7 +28,7 @@ double Income3 = ClassC * 9.00;
 double TotalIncome = Income1 + Income2 + Income3;
 
 cout << TotalIncome << endl;
-cout << setprecision(2) << "Total Income:$" << TotalIncome << endl;
+cout << setprecision(4) << "Total Income:$" << TotalIncome << endl;
 
 // Not sure how to make this program work if dollar amounts are in fixed-point notation.
 }
