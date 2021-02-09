@@ -22,11 +22,13 @@ cin >> ClassB;
 cout <<"Tickets From Class C: "<< endl;
 cin >> ClassC;
 
-double Income1 = ClassA * 15;
-double Income2 = ClassB * 12;
-double Income3 = ClassC * 9;
+double Income1 = ClassA * 15.00;
+double Income2 = ClassB * 12.00;
+double Income3 = ClassC * 9.00;
 double TotalIncome = Income1 + Income2 + Income3;
 
-cout << setprecision(2) << "Total Income: $" << TotalIncome << endl;
+cout << TotalIncome << endl;
+cout << setprecision(2) << "Total Income:$" << TotalIncome << endl;
 
+// Not sure how to make this program work if dollar amounts are in fixed-point notation.
 }
