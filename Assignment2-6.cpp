@@ -23,8 +23,8 @@ int main()
   double sum = V1 + V2 + V3 + V4+ V5;
   double avg = sum/5;
 
-  cout << "Sum:" << sum << endl;
-  cout << "Average:" << avg << endl;
+  cout << "Sum: " << sum << endl;
+  cout << "Average: " << avg << endl;
 
   // Not sure how to print numbers in precision 3
 }
