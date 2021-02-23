@@ -15,4 +15,4 @@ int main()
   cout << "Your Scores " << score1 << " " << score2 << " " << score3 << " " << endl;
 
   cout << "Average " << average << endl;
-}
+} 
