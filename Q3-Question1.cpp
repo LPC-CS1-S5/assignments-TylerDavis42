@@ -32,5 +32,7 @@ cout << Rnum2 << endl;
 cout << Rnum3 << endl;
 cout << "Sum: " << SUM << endl;
 cout << setprecision(5) << "Average: " << AVG << endl;
+  
+  // Committed from Repl.it
 
 }
